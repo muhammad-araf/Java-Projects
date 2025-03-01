@@ -1,8 +1,14 @@
+import java.io.IOException;
 import java.util.*;
 class Manager{
     private String passwords[] = new String[15];
     public int count = 0;
     void show(){
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
         Scanner scan = new Scanner(System.in);
         if(count == 0){
             System.out.println("No password has been saved.\n");
@@ -33,6 +39,11 @@ class Manager{
     }
     }
     void decryption(){
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the password u want to decrypt");
         String subpassword = scan.nextLine();
@@ -46,6 +57,11 @@ class Manager{
         System.out.println("According to your key Decrypted Password: " + decryptedText.toString());
     }
     void save(){
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
         StringBuilder encryptedText = new StringBuilder();
         String password;
         System.out.println("Encrypted: " + encryptedText);
@@ -96,6 +112,7 @@ do{
                 System.out.println("Invalid choice");
             break;
         }
+        
         }while(true);
     }
 }
