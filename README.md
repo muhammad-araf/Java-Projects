@@ -21,7 +21,6 @@ The **Bank Management System** is a simple Java console-based application that s
 🚀 **Contribute:** Feel free to fork and enhance this project!  
 # 🔑 Password Manager (Java Console Application)
 
-# 🔑 Password Manager (Java Console Application)  
 
 The **Password Manager** is a robust Java console-based application designed to securely store, encrypt, and manage passwords. It features **Caesar Cipher encryption**, user authentication, and enhanced password recovery options.  
 
