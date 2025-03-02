@@ -1,0 +1,2 @@
+
+        PersonalAnswer = scan.nextLine();
