@@ -22,17 +22,16 @@ The **Bank Management System** is a simple Java console-based application that s
 # 🔑 Password Manager (Java Console Application)
 
 
-The **Password Manager** is a robust Java console-based application designed to securely store, encrypt, and manage passwords. It features **Caesar Cipher encryption**, user authentication, and enhanced password recovery options.  
-
+The **Password Manager** is a robust Java console-based application designed to securely store, encrypt, and manage passwords. It features **Caesar Cipher encryption**, user authentication, and enhanced password recovery options. 
 ## 🚀 Features  
-✅ **User Authentication** – Secure login system with **username and PIN protection**. 
-✅ **Secure Password Storage** – Encrypts passwords using **Caesar Cipher** before saving them.  
-✅ **Decryption Support** – Retrieve stored passwords by entering the correct key.  
-✅ **Randomized Encryption Key** – Each password is encrypted with a **unique key** to prevent uniform decryption.
-✅ **Forgot PIN Recovery** – Reset PIN using a **personal security question** for enhanced recovery options
-✅ **Limited Login Attempts** – Restricts access after multiple failed login attempts to prevent brute-force attacks. 
+✅ **User Authentication** – A secure login system with **username and PIN protection**.  
+✅ **Secure Password Storage** – Encrypts passwords using the **Caesar Cipher** before saving them.  
+✅ **Decryption Support** – Retrieves stored passwords by entering the correct key.  
+✅ **Randomized Encryption Key** – Each password is encrypted with a **unique key** to prevent uniform decryption.  
+✅ **Forgot PIN Recovery** – Resets PIN using a **personal security question** for enhanced recovery options.  
+✅ **Limited Login Attempts** – Restricts access after multiple failed login attempts to prevent brute-force attacks.  
 ✅ **Input Validation & Error Handling** – Prevents invalid inputs and enhances security.  
-✅ **Improved User Interface** – Optimized menu-driven system for better user experience. 
+✅ **Improved User Interface** – An optimized menu-driven system for a better user experience.  
 
 ## 🔧 Technology Used  
 🔹 **Programming Language:** Java  
