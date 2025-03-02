@@ -21,20 +21,25 @@ The **Bank Management System** is a simple Java console-based application that s
 🚀 **Contribute:** Feel free to fork and enhance this project!  
 # 🔑 Password Manager (Java Console Application)
 
-The **Password Manager** is a simple yet efficient Java console-based application that securely stores and retrieves passwords using **Caesar Cipher encryption**. It allows users to **save, encrypt, decrypt, and view stored passwords** while ensuring security with **randomized keys**.
+# 🔑 Password Manager (Java Console Application)  
 
-## 🚀 Features
+The **Password Manager** is a robust Java console-based application designed to securely store, encrypt, and manage passwords. It features **Caesar Cipher encryption**, user authentication, and enhanced password recovery options.  
+
+## 🚀 Features  
+✅ **User Authentication** – Secure login system with **username and PIN protection**. 
 ✅ **Secure Password Storage** – Encrypts passwords using **Caesar Cipher** before saving them.  
-✅ **Random Key Generation** – Generates a unique encryption key (1-25) for each password.  
-✅ **Decryption Support** – Users can retrieve stored passwords by entering the correct key.  
-✅ **User-Friendly Menu** – Simple console-based interface for managing passwords efficiently.  
-✅ **Error Handling & Input Validation** – Ensures safe access to stored passwords.  
+✅ **Decryption Support** – Retrieve stored passwords by entering the correct key.  
+✅ **Randomized Encryption Key** – Each password is encrypted with a **unique key** to prevent uniform decryption.
+✅ **Forgot PIN Recovery** – Reset PIN using a **personal security question** for enhanced recovery options
+✅ **Limited Login Attempts** – Restricts access after multiple failed login attempts to prevent brute-force attacks. 
+✅ **Input Validation & Error Handling** – Prevents invalid inputs and enhances security.  
+✅ **Improved User Interface** – Optimized menu-driven system for better user experience. 
 
-## 🔧 Technology Used
+## 🔧 Technology Used  
 🔹 **Programming Language:** Java  
-🔹 **Concepts Applied:** OOP (Encapsulation, Classes, Objects), Loops, Conditionals, Random Number Generation, Caesar Cipher Encryption / Decryption
+🔹 **Concepts Applied:** OOP (Encapsulation, Classes, Objects), Loops, Conditionals, Random Number Generation, Exception Handling, User Authentication, Encryption & Decryption 
 
-## 📜 How to Use
-1. **Clone the Repository:**
+## 📜 How to Use  
+1. **Clone the Repository:**  
    ```bash
    git clone https://github.com/m-araf/Java.git
