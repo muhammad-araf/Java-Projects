@@ -9,6 +9,7 @@ class Manager{
     private String PersonalAnswer = null;
     private boolean create = false;
     public int count = 0;
+
     Scanner scan = new Scanner(System.in);
     void reset (){
         try {
@@ -152,6 +153,7 @@ class Manager{
         System.out.println("Invalid Pin");
     }
 }
+
     void decryption(){
         reset();
         Scanner scan = new Scanner(System.in);
