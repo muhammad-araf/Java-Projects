@@ -1,3 +1,4 @@
+package LabTask01;
 class banking{
     String accountNumber = "0A122B";
     int balance = 1000;

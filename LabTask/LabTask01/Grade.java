@@ -1,3 +1,4 @@
+package LabTask01;
 class Student{
     String name;
     double marks;

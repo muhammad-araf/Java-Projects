@@ -1,3 +1,4 @@
+package LabTask01;
 class Rectangle {
     int length;
     int width;

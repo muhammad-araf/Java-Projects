@@ -1,3 +1,4 @@
+package LabTask01;
 class Person {
 
     String name;

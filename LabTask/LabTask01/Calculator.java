@@ -1,3 +1,4 @@
+package LabTask01;
 class calc{
     int add(int a,int b){
         return (a+b);
