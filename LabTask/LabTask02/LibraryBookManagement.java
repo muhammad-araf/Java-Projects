@@ -1,3 +1,4 @@
+package LabTask02;
 import java.util.*;
 class manage{
     private String Title = "Peer e kamil";

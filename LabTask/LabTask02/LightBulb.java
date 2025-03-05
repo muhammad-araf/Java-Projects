@@ -1,3 +1,4 @@
+package LabTask02;
 import java.util.*;
 class bulb{
     boolean checkBulb = false;
