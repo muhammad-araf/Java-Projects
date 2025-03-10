@@ -19,8 +19,11 @@ class manage{
         Book = false;
     }
     void show(){
+
+        fir=
         if(Book){
             System.out.println(Title+"The Book is Issued");
+        
         }else{
             System.out.println(Title+"The Book is Returned and available");
         }
