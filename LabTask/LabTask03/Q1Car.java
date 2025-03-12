@@ -11,9 +11,8 @@ class hon extends Vehicle{
 }
 public class Q1Car {
     public static void main(String[] args){
-        Vehicle v = new Vehicle();
         hon h = new hon();
-        v.StartEngine();
+        h.StartEngine();
         h.honk();
     }
 }
