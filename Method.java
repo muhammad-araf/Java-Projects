@@ -10,3 +10,4 @@ public class Method {
         obj.print();
     }
 }
+
