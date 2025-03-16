@@ -4,6 +4,7 @@ class method{
         System.out.println("Hello World");
     }
 }
+
 public class Method {
     public static void main(String[] args){
         method obj = new method();
