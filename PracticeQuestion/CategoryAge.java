@@ -6,6 +6,7 @@ public class CategoryAge {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
+        
         if (age < 18) {
             System.out.println("You are a child.");
         } else if (age < 65) {
