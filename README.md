@@ -5,7 +5,6 @@
 
 The **Bank Management System** is a simple Java console-based application that simulates basic banking operations. It allows users to create a bank account, deposit and withdraw money, and check their balance. The system follows object-oriented programming principles, including classes, objects, encapsulation, and methods.  
 
-
 ### 🚀 Features  
 ✅ **Account Creation** – Generates a random account number and initializes balance.  
 ✅ **Deposit Money** – Adds money to the user's account.  
