@@ -12,6 +12,7 @@ public class DigitalRoot {
     }
 
     public static void main(String[] args) {
+        
         int number = 987;
         System.out.println("Digital Root of " + number + " is: " + root(number));
     }
