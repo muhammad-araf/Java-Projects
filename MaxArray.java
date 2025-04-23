@@ -9,6 +9,7 @@ public int findMax(int[] nums) {
     return max;
 }
 }
+
 public class MaxArray {
     public static void main(String[] args) {
         num n = new num();
