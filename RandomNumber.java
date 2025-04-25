@@ -3,6 +3,7 @@ public class RandomNumber {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         do{
+            
         int randnum = (int) (Math.random() * 5);
         System.out.println("Enter a Guess number");
         int guess = scan.nextInt();
