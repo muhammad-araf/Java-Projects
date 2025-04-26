@@ -7,6 +7,7 @@ public class ReverseString {
         int a = name.length()-1;
         for(int i = 0;i<name.length();i++){
             name2.append(name.charAt(a));
+            
             a--;
         }
         System.out.println(name2);
