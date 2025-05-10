@@ -1,1 +1,0 @@
-Collections.sort(list)
