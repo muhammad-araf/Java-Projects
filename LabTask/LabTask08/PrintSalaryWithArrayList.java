@@ -1,40 +1,38 @@
 import java.util.*;
 class Employee{
-    private int id;
     private String name;
-    private double salary;
-    public Employee(int id, String name, double salary) {
-        this.id = id;
+    private double Salary;
+    Employee(String name, double Salary){
         this.name = name;
-        this.salary = salary;
+        this.Salary = Salary;
     }
-
-    public double getSalary(){
-        return salary;
+    double getSalary(){
+        return Salary;
     }
-    void print(){
-        System.out.print("Name : "+name+"\nID : "+id+"\nSalary : "+salary);
-    }
+    
 }
-
 public class PrintSalaryWithArrayList{
     public static void main(String[] args) {
-        ArrayList<Employee> employees = new ArrayList<>();
-
-        employees.add(new Employee(1, "Araf", 75000.50));
-        employees.add(new Employee(2, "Fasih", 82000.75));
-        employees.add(new Employee(3, "Jiya", 65000.25));
-
-        Employee highestPaid = employees.get(0);
-        for (Employee emp : employees) {
-            if (emp.getSalary() > highestPaid.getSalary()) {
-                highestPaid = emp;
+        ArrayList<Employee> member = new ArrayList<>();
+        member.add(new Employee("Araf",20000));
+        member.add(new Employee("Fasih",50000));
+        member.add(new Employee("Maham",40000));
+        // for(Employee e : member){
+        //     System.out.println(e.getSalary());
+        // }
+        double max = member.get(0).getSalary();
+        double min = member.get(1).getSalary();
+        for(int i = 0; i < 3; i++){
+            if(max < member.get(i).getSalary()){
+                max = member.get(i).getSalary();
             }
-            emp.print();
+            if(min > member.get(0).getSalary()){
+                min = member.get(i).getSalary();
+            }
         }
+        System.out.println("The Maximum Salary is :"+max);
+        System.out.println("The Minimum Salary is :"+min);
 
-
-        System.out.println("Employee with the highest salary:");
-        System.out.println(highestPaid);
-    }
+ 
+   }
 }
