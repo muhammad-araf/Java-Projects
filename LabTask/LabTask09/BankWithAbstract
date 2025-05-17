@@ -1,0 +1,80 @@
+abstract class BankAccount {
+    protected double balance;
+
+    BankAccount(double balance) {
+        this.balance = balance;
+    }
+
+    abstract void deposit(double amount);
+    abstract void withdraw(double amount);
+    abstract double getBalance();
+}
+
+class SavingsAccount extends BankAccount {
+    SavingsAccount(double balance) {
+        super(balance);
+    }
+
+    @Override
+    void deposit(double amount) {
+        balance += amount;
+        System.out.println("Deposited in Savings: " + amount);
+    }
+
+    @Override
+    void withdraw(double amount) {
+        if (balance >= amount) {
+            balance -= amount;
+            System.out.println("Withdrawn from Savings: " + amount);
+        } else {
+            System.out.println("Insufficient balance in Savings.");
+        }
+    }
+
+    @Override
+    double getBalance() {
+        return balance;
+    }
+}
+
+class CurrentAccount extends BankAccount {
+    CurrentAccount(double balance) {
+        super(balance);
+    }
+
+    @Override
+    void deposit(double amount) {
+        balance += amount;
+        System.out.println("Deposited in Current: " + amount);
+    }
+
+    @Override
+    void withdraw(double amount) {
+        if (balance >= amount) {
+            balance -= amount;
+            System.out.println("Withdrawn from Current: " + amount);
+        } else {
+            System.out.println("Insufficient balance in Current.");
+        }
+    }
+
+    @Override
+    double getBalance() {
+        return balance;
+    }
+}
+
+public class BankWithAbstract {
+    public static void main(String[] args) {
+        BankAccount savings = new SavingsAccount(1000);
+        BankAccount current = new CurrentAccount(2000);
+
+        savings.deposit(500);
+        savings.withdraw(300);
+        System.out.println("Savings Balance: " + savings.getBalance());
+
+        current.deposit(1000);
+        current.withdraw(2500);  // Try withdrawing more than available
+        System.out.println("Current Balance: " + current.getBalance());
+    }
+}
